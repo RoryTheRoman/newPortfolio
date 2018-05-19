@@ -1,0 +1,15 @@
+.navbar-brand {
+   font-size: 55px;
+   font-family: "futura-pt";
+   font-weight: 700;
+}
+
+.container {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.navbar-nav {
+   font-family: "futura-pt";
+   font-size: 17px;
+}
