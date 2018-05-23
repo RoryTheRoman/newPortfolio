@@ -6,6 +6,7 @@ import ItemCard from './components/ItemCard';
 import FeatureItem from './components/FeatureItem';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Works from './pages/Works/Works.js';
+import About from './pages/About/About.js';
 
 
 class App extends Component {
@@ -17,7 +18,8 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Works} />
             <Route exact path="/Works" component={Works} />
-          </Switch>
+            <Route exact path="/About" component={About}
+/>          </Switch>
         </div>
       </Router>
 
