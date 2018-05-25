@@ -1,0 +1,14 @@
+.wrapper {
+  padding-top: 50px;
+  background: white;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 100px;
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow: auto;
+}
+.card-img-top {
+    height: 200px;
+}

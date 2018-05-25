@@ -1,16 +1,16 @@
 [
     {
         "id": 1,
-        "name": "Liri-Node-App",
-        "image": "./assets/images/image1.jpeg",
-        "github": "https://github.com/RoryTheRoman/liri-node-app",
+        "name": "Bamazon",
+        "image": "./assets/images/bamazon.png",
+        "github": "https://github.com/RoryTheRoman/bamazon",
         "deployed": "",
         "description": ""
     },
     {
         "id": 2,
         "name": "ClickyGame",
-        "image": "./assets/images/image2.jpeg",
+        "image": "./assets/images/clickygame.png",
         "github": "https://github.com/RoryTheRoman/ClickyGame",
         "deployed": "https://herokuclickygame.herokuapp.com/",
         "description": ""
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "name": "Onion Scraper",
-        "image": "./assets/images/image3.jpeg",
+        "image": "./assets/images/onionscraper.png",
         "github": "https://github.com/RoryTheRoman/scraper",
         "deployed": "https://sheltered-depths-10287.herokuapp.com/scrape",
         "description": ""
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "name": "Eventful",
-        "image": "./assets/images/image4.jpeg",
+        "image": "./assets/images/eventful.png",
         "github": "https://github.com/RoryTheRoman/event_app",
         "deployed": "https://afternoon-oasis-27882.herokuapp.com/",
         "description": ""
@@ -34,7 +34,7 @@
     {
         "id": 5,
         "name": "BurgerTracker",
-        "image": "./assets/images/image5.jpeg",
+        "image": "./assets/images/burgers.png",
         "github": "https://github.com/RoryTheRoman/burger",
         "deployed": "https://thawing-ridge-12065.herokuapp.com/",
         "description": ""

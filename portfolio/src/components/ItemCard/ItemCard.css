@@ -1,4 +1,8 @@
-.item-card {
-    width: 350px;
+.card {
+    width: 400px;
     border: none;
+    padding: 20px;
+}
+.card-image-top {
+    width: 400px;
 }

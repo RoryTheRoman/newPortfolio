@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ItemCard from '../../components/ItemCard';
 import projects from '../../projects.json';
+import Wrapper from '../../components/Wrapper';
 
 class Works extends Component {
 
@@ -12,7 +13,7 @@ class Works extends Component {
  render() {
      return(
         <div className="works">
-
+            <Wrapper>
             {this.state.projects.map(project => (
                  <ItemCard
                      key={project.id}
@@ -20,12 +21,12 @@ class Works extends Component {
                      image={project.image}
                  />
 
-            ))};
-        
+            ))}
+            </Wrapper>
         </div>
         
 
-);
+)
 }
 }
 export default Works;
