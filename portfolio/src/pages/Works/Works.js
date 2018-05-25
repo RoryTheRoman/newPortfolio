@@ -1,9 +1,31 @@
-import React from "react";
+import React, { Component } from 'react';
 import ItemCard from '../../components/ItemCard';
+import projects from '../../projects.json';
 
-const Works = props => (
+class Works extends Component {
 
-    <ItemCard />
-    
+    state = {
+
+        projects: projects,
+
+    };
+ render() {
+     return(
+        <div className="works">
+
+            {this.state.projects.map(project => (
+                 <ItemCard
+                     key={project.id}
+                     name={project.name}
+                     image={project.image}
+                 />
+
+            ))};
+        
+        </div>
+        
+
 );
+}
+}
 export default Works;
