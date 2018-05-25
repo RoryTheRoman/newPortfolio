@@ -10,6 +10,12 @@ class Works extends Component {
         projects: projects,
 
     };
+
+    imageClick = id => {
+        const clicked = this.state.projects.find(project => project.id === id);
+        
+        
+    }   
  render() {
      return(
         <div className="works">
@@ -17,6 +23,7 @@ class Works extends Component {
             {this.state.projects.map(project => (
                  <ItemCard
                      key={project.id}
+                     id={project.id}
                      name={project.name}
                      image={project.image}
                  />
