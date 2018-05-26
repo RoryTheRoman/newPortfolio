@@ -1,9 +1,21 @@
-import React from "react";
+import React, {Component} from "react";
 import FeatureItem from '../../components/FeatureItem';
+import projects from '../../projects.json';
 
-const About = props => (
+class FeaturedWorks extends Component {
 
+    state = {
+        projects: projects
+    }
+ 
+ 
+render() {
+    return (
     <FeatureItem />
+)}  
+}
 
-);
-export default FeatureItem;
+   
+
+
+export default FeaturedWorks;
