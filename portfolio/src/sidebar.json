@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Bio",
-        "image": ".assets/images/burgers.png",
+        "image": "./assets/images/burgers.png",
         "title": "Michael McDaniel",
         "subtitle": "Full Stack Web Developer",
         "pOne": "I'm a Chicago based freelance web developer, passionate about designing and building.  I love the satisfaction that comes with contributing to a project.",
