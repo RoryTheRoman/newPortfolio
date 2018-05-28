@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Works from './pages/Works/Works.js';
 import About from './pages/About/About.js';
 import FeaturedWorks from './pages/FeaturedWorks/FeaturedWorks.js';
+import Footer from './components/Footer';
 
 
 class App extends Component {
@@ -21,6 +22,7 @@ class App extends Component {
             {/* <Route exact path="/Contact" component={Contact} /> */}
             <Route exact path="/Works/:id" component={FeaturedWorks} />
 />          </Switch>
+          <Footer />
         </div>
       </Router>
 
