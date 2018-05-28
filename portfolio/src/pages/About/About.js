@@ -1,7 +1,6 @@
 import React, {Component} from "react";
 import FeatureItem from '../../components/FeatureItem';
 import Sidebar from '../../components/Sidebar';
-import Navbar from '../../components/Navbar';
 import sidebar from '../../sidebar.json';
 
 class About extends Component {

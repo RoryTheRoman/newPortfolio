@@ -1,12 +1,12 @@
 import React from "react";
-import "./Contact.css";
+import "./Form.css";
 
-const Contact = () => {
+const Form = () => {
 
     return(
-
+        <div className="contactMe">
+            <h4 id="contactMe">Contact Me</h4>
         <form action="mailto:someone@example.com" method="post" enctype="text/plain">
-            <h4>Contact Me</h4>
             <div className="form-group">
                 <label for="yourName">Your Name</label>
                 <input type="text" class="form-control" id="yourName" placeholder="Your Name Here" />
@@ -16,12 +16,13 @@ const Contact = () => {
                 <input type="email" class="form-control" id="yourEmail" placeholder="name@example.com" />
             </div>
             <div class="form-group">
-                <label for="emailTextArea">Example textarea</label>
-                <textarea class="form-control" id="emailTextArea" rows="3"></textarea>
+                <label for="emailTextArea">Write Me Something!</label>
+                <textarea class="form-control" id="emailTextArea" rows="10" method="post" action="mailto"></textarea>
             </div>
-            <button class="btn btn-primary" type="submit">Submit</button>
+            <button class="btn btn-primary" type="submit" value="send">Submit</button>
         </form>
+        </div>
     )
 }
 
-export default Contact;
+export default Form;
