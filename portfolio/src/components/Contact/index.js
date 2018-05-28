@@ -1,1 +1,1 @@
-export { default } from "./FeatureItem";
+export { default } from "./Contact";
