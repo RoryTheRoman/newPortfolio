@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import FeatureItem from '../../components/FeatureItem';
 import projects from '../../projects.json';
+import axios from 'axios';
 
 class FeaturedWorks extends Component {
 
@@ -10,7 +11,7 @@ class FeaturedWorks extends Component {
     }
 
     featuredWork = function (id) {
-        return projects.get(projects + id)
+        return axios.get('/Works/' + id)
     }
 
     componentDidMount() {
@@ -21,7 +22,9 @@ class FeaturedWorks extends Component {
  
 render() {
     return (
-    <FeatureItem />
+    <FeatureItem 
+        image={this.state.project.image}
+    />
 )}  
 }
 

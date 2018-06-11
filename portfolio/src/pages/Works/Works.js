@@ -28,7 +28,7 @@ class Works extends Component {
                      name={project.name}
                      image={project.image}
                  >
-                    <Link to={"/works/" + project.id} />
+                    <Link to={"/Works/" + project.id} />
                  </ItemCard>
 
             ))}
