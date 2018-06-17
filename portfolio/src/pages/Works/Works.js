@@ -9,14 +9,26 @@ class Works extends Component {
     state = {
 
         projects: projects,
+        project: []
 
     };
+    featureItemHandler = () => {
+        this.setState({
+            project: [
+                {
+                    id: this.id,
+                    name: this.name,
+                    image: this.image,
+                    github: this.github,
+                    deployed: this.deployed,
+                    description: this.description
 
-    // imageClick = id => {
-    //     const clicked = this.state.projects.find(project => project.id === id);
-        
-        
-    // }   
+                }    
+
+            ]
+        })
+
+    }
  render() {
      return(
         <div className="works">
@@ -27,6 +39,8 @@ class Works extends Component {
                      id={project.id}
                      name={project.name}
                      image={project.image}
+                     onClick={this.featureItemHandler}
+                     click={this.featureItemHandler}
                  >
                     <Link to={"/Works/" + project.id} />
                  </ItemCard>

@@ -7,7 +7,7 @@ const ItemCard = props => (
     <div>
         {/* <a onClick={() => props.imageClick(props.id)}> */}
         <Link to={"/Works/" + props.id} >
-        <div className="card item-card">
+        <div className="card item-card" onClick={props.click}>
                 <img className="card-img-top" src={props.image} alt={props.name} />
             <div className="card-body">
                 <p className="card-text">{props.name}</p>

@@ -2,7 +2,7 @@ import React from "react";
 import "./FeatureItem.css";
 
 const FeatureItem = props => (
-    <div className="container">
+    <div className="container" onClick={props.click}>
         <div className="row">
             <div className="col-8 feature-item">
                 <div className="card">

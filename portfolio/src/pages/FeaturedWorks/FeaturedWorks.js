@@ -1,23 +1,24 @@
 import React, {Component} from "react";
 import FeatureItem from '../../components/FeatureItem';
-import projects from '../../projects.json';
-import axios from 'axios';
+// import projects from '../../projects.json';
+// import axios from 'axios';
 
 class FeaturedWorks extends Component {
 
     state = {
-        projects: projects,
+        // projects: projects,
         project: {}
     }
 
-    featuredWork = function (id) {
-        return axios.get('/Works/' + id)
-    }
+    // featuredWork = function (id) {
+    //     return axios.get('/Works/' + id)
+    // }
 
-    componentDidMount() {
-        this.featuredWork(this.props.match.params.id)
-        .then(res => this.setState({ project: res.data }))
-    }
+    // componentDidMount() {
+    //     this.featuredWork(this.props.match.params.id)
+    //     .then(res => this.setState({ project: res.data }))
+    //     .catch(err => console.log(err));
+    // }
  
  
 render() {
