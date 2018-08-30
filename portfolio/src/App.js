@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import Contact from './pages/Contact/Contact.js';
 
 
+
 class App extends Component {
   render() {
     return (
@@ -20,7 +21,7 @@ class App extends Component {
             <Route exact path="/Works" component={Works} />
             <Route exact path="/About" component={About} />
             <Route exact path="/Contact" component={Contact} />
-            <Route exact path="/Works/:id" component={FeaturedWorks} />
+            <Route exact path="/Works/:id" component={() => <FeaturedWorks props={{}}/>} />
 />          </Switch>
           <Footer />
         </div>

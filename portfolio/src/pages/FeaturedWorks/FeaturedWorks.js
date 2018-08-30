@@ -24,6 +24,7 @@ class FeaturedWorks extends Component {
 render() {
     return (
     <FeatureItem 
+        id={this.state.project.id}
         image={this.state.project.image}
     />
 )}  
